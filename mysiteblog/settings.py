@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.sites',
     'django.contrib.sitemaps',
     'django.contrib.staticfiles',
+    'django.contrib.postgres',
     "taggit",
     'blog.apps.BlogConfig',
 ]
@@ -90,6 +91,7 @@ DATABASES = {
         'PORT': 5432 
     }
 }
+
 
 
 # Password validation
